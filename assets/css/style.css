@@ -30,6 +30,7 @@ main {
 nav {
     background-color: beige;
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
@@ -61,6 +62,7 @@ nav a:hover {
 #banner img {
     width: 60%;
     height: auto;
+    display: block;
 }
 
 .service {
@@ -83,4 +85,18 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+.current {
+    background-color: #4a13a1;
+    color: #ffffff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+footer {
+    background-color: beige;
+    text-align: center;
+    color: darkgreen;
+    text-size-adjust: 20%;
+    font-family: cursive;
 }
